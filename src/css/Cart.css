@@ -1,0 +1,103 @@
+.carts {
+    width: 100%;
+}
+
+.Img {
+    width: 8rem;
+    border-radius: 15px;
+}
+
+.cart_close box-icon {
+    display: inline-block;
+    width: 55px;
+    cursor: pointer;
+    /* transform: all 300 ease-in-out; */
+}
+
+.cart_close box-icon:hover {
+    fill: rgb(255, 0, 0);
+}
+
+.cart_id {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr;
+    padding: 0 0 20px 0;
+}
+
+.cart_id h3 {
+    margin-top: .3rem;
+    margin-left: .6rem;
+}
+
+.cart_id .price1 {
+    color: rgb(80, 71, 71);
+    margin-left: 12px;
+}
+
+.cart_id box-icon {
+    cursor: pointer;
+    margin-top: .3rem;
+}
+
+.cart_id .cantidad {
+    font-weight: bold;
+    padding-left: 6px;
+}
+
+.cart_id .remove_id box-icon {
+    width: 60px;
+    height: 30px;
+    fill: crimson;
+    margin-top: 2rem;
+}
+
+.crr {
+    height: 8rem;
+}
+
+.delivery {
+    background: #fdf3d6;
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.carro {
+    width: 50px;
+    margin-left: 28px;
+}
+
+.delive {
+    margin-top: -58px;
+    margin-left: 8.5rem;
+}
+
+.pric {
+    margin-left: 8.5rem;
+    color: rgb(80, 71, 71);
+}
+
+.cart_foot {
+    margin-top: 2rem;
+}
+
+.btn3 {
+    background-color: #fcc40b;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 2rem;
+    padding-right: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 25px;
+    border: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 48.6%;
+    cursor: pointer;
+}
+
+.btn3 box-icon {
+    margin-left: 2rem;
+    margin-top: -3px;
+}

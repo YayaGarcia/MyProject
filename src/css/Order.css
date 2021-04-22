@@ -1,0 +1,149 @@
+.containeror {
+    margin-top: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.user {
+    float: right;
+    width: 25px;
+    /* margin-right: 20px; */
+    position: relative;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.total {
+    background-color: #ffc400;
+    padding: 4px 10px;
+    border-radius: 10px;
+    margin-left: 330px;
+    position: absolute;
+}
+
+.order {
+    padding-top: 7rem;
+}
+
+.emoji {
+    width: 22px;
+    border-radius: 160px;
+    margin-left: 8px;
+}
+
+.direc {
+    background: #5b37b1;
+    margin-top: 60px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.di {
+    color: white;
+}
+
+.ed {
+    color: rgba(255, 238, 0, 0.904);
+    float: right;
+    margin-top: -17px;
+    cursor: pointer;
+}
+
+.clo {
+    width: 18px;
+    transform: rotate(90deg);
+    padding: 6px;
+    border-radius: 8px;
+    background-color: rgb(141, 81, 182);
+    margin-top: 25px;
+}
+
+.min {
+    color: white;
+    margin-top: -30px;
+    margin-left: 45px;
+}
+
+.cho {
+    color: rgba(255, 238, 0, 0.904);
+    float: right;
+    margin-top: -22px;
+    cursor: pointer;
+}
+
+
+/*--- ensaño de menú ---*/
+
+ul.acorh,
+ul.acorh * {
+    margin: 0;
+    padding: 0 0 3px;
+    border: 0;
+    float: right;
+    /* background: #5b37b1; */
+}
+
+ul.acorh {
+    margin: 10px auto;
+    padding: 0;
+    list-style: none;
+    width: 30%;
+    font-size: 18px;
+    margin-top: 1px;
+    margin-right: 3.5rem;
+}
+
+ul.acorh li {
+    list-style: none;
+}
+
+ul.acorh li a {
+    display: block;
+    padding: 15px;
+    border: 1px solid #000;
+    border: 1px solid;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul.acorh li ul {
+    max-height: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    transition: .3s all ease-in;
+}
+
+ul.acorh li li a {
+    padding: 10px 10px 10px 40px;
+    color: #000;
+    font-size: 16px;
+    border: 0;
+    /* border-bottom: 1px solid #ccc; */
+    box-sizing: border-box;
+}
+
+ul.acorc li li:last-child a {
+    border: 0;
+}
+
+ul.acorh li:hover ul {
+    max-height: 300px;
+    transition: .3s all ease-in;
+}
+
+ul.acorh li a:hover {
+    background: rgba(163, 168, 161, 0.781);
+}
+
+.out {
+    padding-left: 10px;
+    color: #000;
+    cursor: pointer;
+}
+
+
+/* .out:hover {
+    background: rgba(121, 131, 118, 0.781);
+} */

@@ -1,0 +1,121 @@
+.container {
+    margin-top: -1.5rem;
+}
+
+.pro {
+    color: #FF7400;
+    padding-top: 3.8rem;
+}
+
+.restaurants {
+    margin-top: 2rem;
+    margin-left: 35px;
+}
+
+.des {
+    color: #B5B7AC;
+    padding-top: 0.4rem;
+}
+
+.learn {
+    color: #FF7400;
+    float: right;
+    margin-right: 60px;
+}
+
+.deli {
+    color: #fff;
+    background-color: #FF7400;
+    float: left;
+    padding-left: 7px;
+}
+
+dt {
+    background-color: #FF7400;
+    float: right;
+    padding-left: 5px;
+}
+
+.row {
+    margin-bottom: 1rem;
+}
+
+.row .row {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+[class*="col-"] {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.promocion {
+    padding-top: 1rem;
+    padding-bottom: 6.3rem;
+    background-color: #FFEDED;
+    border-radius: 20px;
+    width: 60vmax;
+    height: 6vmax;
+    margin-left: 30px;
+}
+
+div.promocion img.hsen {
+    float: left;
+    margin-right: 60px;
+}
+
+.btn {
+    background-color: #FF7400;
+    border-radius: 30px;
+    float: right;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 25px;
+    margin-top: -.5rem;
+    cursor: pointer;
+}
+
+.hsen {
+    width: 250px;
+    margin-left: 30px;
+    position: relative;
+    top: -40px;
+}
+
+.confetti {
+    width: 28px;
+    padding-left: 10px;
+}
+
+.fleizq {
+    width: 20px;
+    padding-left: 12px;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 23px;
+    padding-left: 12px;
+}
+
+button {
+    margin-right: 565px;
+    padding-left: 1rem;
+    padding-right: 5rem;
+}
+
+.clock {
+    width: 13px;
+    color: #fff;
+    float: left;
+    padding-top: 1px;
+}
+
+.fleaba {
+    width: 9px;
+    transform: rotate(90deg);
+    color: #fff;
+    padding-left: 3px;
+    margin-left: 15px;
+}
